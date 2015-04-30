@@ -12,6 +12,8 @@ The "Arch is the best" project is ported to many programming languages.
 
     Предупреждение("Arch is the best!");
 
+=====================================
+
 **Ada** — A systems critical programming language.
 
     with Ada.Text_IO;
@@ -21,9 +23,13 @@ The "Arch is the best" project is ported to many programming languages.
        Put_Line("Arch is the best!");
        end HelloWorld;
 
+=====================================
+
 **APL** — A Programming Language.
 
     'Arch is the best!'
+
+=====================================
 
 **ATS** — A functional programming language that uses dependent types to improve programs' reliability.
 
@@ -34,27 +40,37 @@ The "Arch is the best" project is ported to many programming languages.
 	      print "Arch is the best!"
     }
 
+=====================================
+
 **Befunge** — Believed to be the first two-dimensional, ASCII-based, general-purpose (in the sense of "you could plausibly write Hunt the Wumpus in it") programming language.
 
     <v"Arch is the best!"0
     <,_@#:
 
+=====================================
+
 **Boo** — A stablished object oriented statically typed programming language for .NET and Mono with a python inspired syntax and a special focus on metaprogramming through language and compiler extensibility features such as macros and custom compilation pipelines.
 
 	print "Arch is the best!"
+
+=====================================
 
 **Bourne shell** — The original program, should be compatible with any shell
 
     #!/bin/sh
 	echo "Arch is the best!"
 
+=====================================
+
 **Bourne shell (Alternate)** — Handy for piping the output to your favourite IRC/email/IM client. Should work with any shell.
 
     #!/bin/sh
 	yes Arch is the best!
 
+=====================================
+
 **Bourne shell (Dynamically updated)**
-	
+
     #!/bin/bash
     wget http://wiki.archlinux.org/index.php/Arch_is_the_best -qO-| sed -n ':b;n;s/id="Translations"//;Tb;:d;n;s/id="Encodings"//;t;p;bd'|sed '/<i>.*<\/i>/d;s/<[^>]*>//g'|sed 'N;s/\n/: /;N;N;s/\n//g'
 
@@ -63,12 +79,16 @@ or
     #!/bin/bash
     curl -s "https://wiki.archlinux.org/index.php?title=Arch_is_the_best&action=raw" | sed -n '/==Translations==/,$p' | sed "s/^'''\(.*\)'''$/* \1:/;t;s/^[^=]/  &/"
 
+=====================================
+
 **brainfuck** — Doesn't the language name explain it?
 
 	++>++++++>+++++<+[>[->+<]<->++++++++++<]>>.<[-]>[-<++>]
 	<----------------.---------------.+++++.<+++[-<++++++++++>]<.
 	>>+.++++++++++.<<.>>+.------------.---.<<.>>---.
 	+++.++++++++++++++.+.<<+.[-]++++++++++.
+
+=====================================
 
 **C** — Note the three space indenting used in this project, much like that used by other superio beings.
 
@@ -79,6 +99,8 @@ or
     	puts("Arch is the best!");
     	return EXIT_SUCCESS;
     }
+
+=====================================
 
 **C#** — Intended to be a simple, modern, general-purpose, object-oriented programming language
 
@@ -91,6 +113,8 @@ or
 						   }
 	}
 
+=====================================
+
 **C++** — Arch == Linux+
 
     #include <iostream>
@@ -100,6 +124,8 @@ or
 		   std::cout << "Arch is the best!" << std::endl;
 		      return EXIT_SUCCESS;
 	}
+
+=====================================
 
 **COBOL** — A simple, lightweight programming language.
 
@@ -111,9 +137,13 @@ or
 	    STOP RUN.
 
 
+=====================================
+
 **CoffeeScript** — A programming language that transcompiles to JavaScript.
 
     alert 'Arch is the best!'
+
+=====================================
 
 **Clojure** — A Lisp dialect that runs on the JVM.
 
@@ -153,6 +183,8 @@ or
 
 	(prn "Arch is the best!")
 
+=====================================
+
 **Common Lisp** — Tested on SBCL, feel free to add more of the translations
 
     #!/usr/bin/sbcl --script
@@ -178,9 +210,13 @@ or
       (format t "~&May the Arch be with you!~%"))
     (aitb)
 
+=====================================
+
 **Common Lisp (Alternate)** — Should run on any implementation (Clisp, Allegro, SBCL...)
 
     (princ "Arch is the best!")
+
+=====================================
 
 **D** — A C-style language. The benefits of hindsight, with modern conveniences.
 
@@ -190,15 +226,21 @@ or
 	    writeln("Arch is the best");
 	}
 
+=====================================
+
 **Dart** — Google's javascript killer
 
     main(){
 	    print('Arch is the best');
 	}
 
+=====================================
+
 **Emacs Lisp** — A dialect of the Lisp programming language used by the GNU Emacs and XEmacs text editors
 
     (message "Arch is the best!")
+
+=====================================
 
 **Erlang** — A concurrent, garbage-collected programming language and runtime system.
 
@@ -225,13 +267,19 @@ Or using message passing between processes
     		{Pid,Response} -> io:format("~s~n",[Response])
     	end.
 
+=====================================
+
 **F#** — A strongly-typed, functional-first programming language for writing simple code to solve complex problems.
 
     printfn "Arch is the best!"
 
+=====================================
+
 **Factor** — High-level stack-based language
 
     "Arch is the best" print
+
+=====================================
 
 **FIM++** — A wordy, imperative, dynamically-typed, and interpreted language that can use Java classes.
 
@@ -240,9 +288,13 @@ Or using message passing between processes
 	    I wrote "Arch is the best!".
 	Your faithful student, Twilight Sparkle
 
+=====================================
+
 **Forth** — Stack-based language
 
     ." Arch is the best" cr -- kiss way
+
+=====================================
 
 **Fortran95**
 
@@ -250,15 +302,21 @@ Or using message passing between processes
 	   print *,"Arch is the best!"
 	end program arch
 
+=====================================
+
 **Genie** — A new programming language, that allows for a more modern programming style while being able to effortlessly create and use GObjects natively.
 
 	init
 	 print "Arch is the best"
 
+=====================================
+
 **Gjs** — A Javascript binding for GNOME. It's mainly based on Spidermonkey javascript engine and the GObject introspection framework.
 
 	#!/usr/bin/env gjs
 	print ('Arch is the best');
+
+=====================================
 
 **Go** — A language created by Google that's a love child between C, C++ and Python
 
@@ -270,13 +328,19 @@ Or using message passing between processes
 	 fmt.Println("Arch is the best!")
 	}
 
+=====================================
+
 **Groovy** —An agile and dynamic language for the Java Virtual Machine.
 
 	println 'Arch is the best!'
 
+=====================================
+
 **Haskell** — The language where IO is easy and unproblematic.
 
 	main = putStrLn "Arch is the best!"
+
+=====================================
 
 **HTML** — A markup language used to create and define web pages and their content
 
@@ -290,9 +354,13 @@ Or using message passing between processes
 	   </body>
 	</html>
 
+=====================================
+
 **Io** — A pure object-oriented programming language inspired by Smalltalk, Self, Lua, Lisp, Act1, and NewtonScript.
 
 	"Arch is the best!" println
+
+=====================================
 
 **Java** — An extremely portable language, this will run on pretty much anything, it might even run on your toaster!
 
@@ -302,13 +370,19 @@ Or using message passing between processes
 	   }
 	}
 
+=====================================
+
 **JavaScript** — Also known as ECMAScript, a prototype-based object-oriented scripting language.
 
 	console.log('Arch is the best!');
 
+=====================================
+
 **JavaScript** (in a web browser)
 
 	alert('Arch is the best!');
+
+=====================================
 
 **LilyPond** — A powerful music engraving program with an intuitive LaTeX-like input language.
 
@@ -323,6 +397,8 @@ Or using message passing between processes
 	   >>
 	}
 
+=====================================
+
 **LOLCODE** — Why not
 
 	HAI
@@ -330,13 +406,19 @@ Or using message passing between processes
 	VISIBLE "ARCH IS TEH PWNZ LOL!"
 	KTHXBYE
 
+=====================================
+
 **Lua** — A lightweight, extensible programming language.
 
 	print "Arch is the best!"
 
+=====================================
+
 **Morpho** — Morpho is a multi-paradigm programming language that supports procedural, object-oriented and functional programming.
 
 	writeln("Arch is the best!");
+
+=====================================
 
 **Nasm(x86_64) (or yasm)** — Notice that the string is in the .text section, which feels superior
 
@@ -358,29 +440,43 @@ Or using message passing between processes
 	msg: db "Arch is the best!",10
 	len equ $-msg
 
+=====================================
+
 **Nimrod** — Portable lightweight programming language.
 
 	echo "Arch is the best!"
+
+=====================================
 
 **node.js** — a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications, using an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
 
 	console.log('Arch is the best!');
 
+=====================================
+
 **Objective-C** — A reflective, object-oriented programming language that adds Smalltalk-style messaging to the C programming language.
 
 	NSLog(@"Arch is the best!");
+
+=====================================
 
 **OCaml** — The main implementation of the Caml programming language.
 
 	print_endline "Arch is the best!"
 
+=====================================
+
 **Octave** — High-level interpreted language, primarily intended for numerical computations.
 
 	printf("Arch is the best!\n")
 
+=====================================
+
 **Ook!** — brainfuck, translated to Orangutan
 
 	Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook. Ook. Ook! Ook? Ook. Ook? Ook! Ook? Ook! Ook! Ook. Ook? Ook. Ook. Ook? Ook. Ook? Ook! Ook? Ook. Ook! Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook. Ook? Ook! Ook. Ook? Ook. Ook? Ook! Ook. Ook? Ook. Ook! Ook? Ook! Ook! Ook? Ook! Ook. Ook? Ook! Ook? Ook! Ook! Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook? Ook! Ook? Ook. Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook. Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook? Ook! Ook! Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook? Ook! Ook? Ook. Ook! Ook. Ook. Ook? Ook. Ook? Ook. Ook. Ook! Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook. Ook? Ook. Ook? Ook. Ook! Ook. Ook. Ook? Ook. Ook? Ook. Ook. Ook! Ook. Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook. Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook. Ook? Ook. Ook? Ook. Ook! Ook. Ook. Ook? Ook. Ook? Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook. Ook. Ook. Ook! Ook. Ook? Ook. Ook? Ook. Ook. Ook. Ook! Ook. Ook! Ook? Ook! Ook! Ook? Ook! Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook.
+
+=====================================
 
 **Pascal** — An influential imperative and procedural programming language.
 
@@ -389,10 +485,14 @@ Or using message passing between processes
 	  writeln('Arch is the best!');
 	end.
 
+=====================================
+
 **Perl** — A high-level, general-purpose, interpreted, dynamic programming language.
 
 	#!/usr/bin/perl
 	print "Arch is the best!\n";
+
+=====================================
 
 **PHP** — A general-purpose scripting language.
 
@@ -400,10 +500,14 @@ Or using message passing between processes
 	   echo "Arch is the best!\n";
 	?>
 
+=====================================
+
 **Pixilang** — Make me pixels.
 
 	print("Arch is the best!",0,0,#1897D1)
 	frame
+
+=====================================
 
 **Portable GNU assembler** —`as -o arch.o arch.s && ld -o arch -O0 arch.o`
 
@@ -427,32 +531,46 @@ Or using message passing between processes
 	   xorl %ebx, %ebx
 	   int $0x80
 
+=====================================
+
 **Processing** — An open source programming language and IDE built for the electronic arts and visual design.
 
 	println("Arch is the best!");
 
+=====================================
+
 **Prolog** — A general purpose logic programming language associated with artificial intelligence and computational linguistics.
 
 	format('Arch is the best~n',[]).
+
+=====================================
 
 **Python** — A general-purpose high-level programming language.
 
 	#!/usr/bin/env python3
 	print('Arch is the best!')
 
+=====================================
+
 **QBASIC** — An interpreter for a variant of the BASIC programming language which is based on QuickBASIC.
 
 	PRINT "Arch is the best!"
+
+=====================================
 
 **R** — A language for statistical computing (and much more!).
 
 	archIsBest <- function() { cat("Arch is the best!\n") }
 	archIsBest()
 
+=====================================
+
 **Ruby** — A dynamic, reflective, general purpose object-oriented programming language.
 
 	#!/usr/bin/ruby -w
 	puts 'Arch is the best!'
+
+=====================================
 
 **Rust** — Rust is a systems programming language that runs blazingly fast, prevents almost all crashes, and eliminates data races.
 
@@ -460,11 +578,15 @@ Or using message passing between processes
 	    println!("Arch is the best!");
 	}
 
+=====================================
+
 **Scala** — A multi paradigm language that runs on the JVM.
 
 	object ArchIsBest extends App {
 	    println("Arch is the best!")
 	}
+
+=====================================
 
 **Scheme** — A dialect of Lisp.
 
@@ -479,10 +601,14 @@ or in **XunDu** style
 	(define (xi) (display "Arch is the best!\n"))
 	(节 (xi) 哀 (wen) 顺 (le) 变 (jian) )
 
+=====================================
+
 **Seed** — A library and interpreter, dynamically bridging the WebKit JavaScriptCore engine, with the GNOME platform.
 
 	#!/usr/bin/env seed
 	print ('Arch is the best');
+
+=====================================
 
 **Shoes** — A Ruby version using Shoes for a GUI.
 
@@ -490,25 +616,35 @@ or in **XunDu** style
 	    para "Arch is the Best!"
 	end
 
+=====================================
+
 **SQL** — Structured Query Language, the query language for relational databases
 
 	SELECT 'Arch is the best!';
 	SELECT 'Arch is the best!' from dual; -- for Oracle DB
 
+=====================================
+
 **Standard ML** — A general-purpose, modular, functional programming language with compile-time tpe checking and type inference.
 
 	print "Arch is the best!\n"
+
+=====================================
 
 **Tcl/Tk** — A scripting language that is commonly used for rapid prototyping, scripted applications, GUIs and testing.
 
 	#!/usr/bin/env tclsh
 	puts "Arch is the best!"
 
+=====================================
+
 **Vala** — Vala is a new programming language that aims to bring modern programming language features to GNOME developers without imposing any additional runtime requirements and without using a different ABI compared to applications and libraries written in C.
 
 	void main(string[] args) {
 		stdout.printf("\nArch is the best!\n\n");
 	}
+
+=====================================
 
 **Wiring (Arduino)** — Built on Processing, the open source programming language developed at the Massachusetts Institute of Technology.
 
@@ -520,6 +656,8 @@ or in **XunDu** style
 	{
 	   Serial.print("Arch is the best!");
 	}
+
+=====================================
 
 **X11** — X11 is an architecture independent system for display of graphical user interfaces.
 
