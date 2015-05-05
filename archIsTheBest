@@ -4,12 +4,13 @@ use strict;
 
 my $reader = open "/usr/share/arch/archIsTheBest.md";
 my $num = 69.rand.Int;
+say "" if $num == 0;
 my $lineC = 0;
 my $index = 0;
 
 for $reader.lines {
 	next unless ++$lineC >= 11;
-	if / \= \= \= \= \= \= \= \= \= \= \= \= \= \= \= \= / {
+	if / \= {15..*} / {
 		last if $index == $num;
 		$index++;
 		next;
